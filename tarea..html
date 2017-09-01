@@ -7,8 +7,7 @@
 
 	<body>
 			<script type="text/javascript">
-
-				var nombre1={
+	var nombre1={
 					nombre: "Maria",
   				        apellido: "lopez"
           	};
@@ -16,21 +15,30 @@
 					nombre: "Jose",
  					apellido: "Lopez"
 					};
+
+				var nombre3={
+					nombre: "Kelinet",
+					apellido: "Gutierrez"
+					};
+
 					
 				
 
 				var arreglo=[];
 
-				for(var i=0 ; i<2 ;i++){
+				for(var i=0 ; i<3 ;i++){
 					if(i==0){
 					  arreglo[i]=nombre1.nombre + " " + nombre1.apellido;
                                           
 					  }else if(i==1){
  						arreglo[i]=nombre2.nombre + " " + nombre2.apellido;
+ 						
+ 						} else if(i==2){
+ 						arreglo[i]=nombre3.nombre + " " + nombre3.apellido;
  						} 
 				};
 
-				for(var i=0 ; i<2 ; i++){
+				for(var i=0 ; i<3; i++){
  					alert(arreglo[i]);
 				};
 			</script>

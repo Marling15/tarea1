@@ -9,23 +9,31 @@
 			<script type="text/javascript">
 	var nombre1={
 					nombre: "Maria",
-  				        apellido: "lopez"
+  				    apellido: "lopez"
           	};
+          	var nombre2={
+					nombre: "Marta",
+  				    apellido: "lopez"
+          	};
+				
 				
 	
 	
 
 				var arreglo=[];
 
-				for(var i=0 ; i<5;i++){
+				for(var i=0 ; i<2;i++){
 					if(i==0){
 					  arreglo[i]=nombre1.nombre + " " + nombre1.apellido;
+                                          
+					  } else if(i==1){
+					  arreglo[i]=nombre2.nombre + " " + nombre2.apellido;
                                           
 					  }
   
 				};
         
-        for(var i=0 ; i<5; i++){
+        for(var i=0 ; i<2; i++){
  					alert(arreglo[i]);
 				};
 			</script>

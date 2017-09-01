@@ -25,11 +25,17 @@
 					nombre: "Marling",
 					apellido: "Gutierrez"
 					};
+
+				var nombre5={
+					nombre: "Clevin",
+					apellido: "Urbina"
+					};
+	
 	
 
 				var arreglo=[];
 
-				for(var i=0 ; i<4;i++){
+				for(var i=0 ; i<5;i++){
 					if(i==0){
 					  arreglo[i]=nombre1.nombre + " " + nombre1.apellido;
                                           
@@ -42,12 +48,15 @@
  					    }  else if(i==3){
  						       arreglo[i]=nombre4.nombre + " " + nombre4.apellido;
 
+ 						       } else if(i==4){
+ 						           arreglo[i]=nombre5.nombre + " " + nombre5.apellido;
+
  						       }
 
   
 				};
         
-        for(var i=0 ; i<4; i++){
+        for(var i=0 ; i<5; i++){
  					alert(arreglo[i]);
 				};
 			</script>
